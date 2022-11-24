@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+/* Header */
+
+header{
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: whitesmoke;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.navbar li{
+    margin: 0 20px;
+}
+
+.logoHeader{
+    width: 20%;
+    height: 20%;
+    margin: auto auto auto 0;
+}
+
+
+/* Body Index */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2{
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+}
+
+/* Body Personajes */
+
+.personajes>img{
+    width: 30%;
+    height: 30%;
+}
+
+/* Formulario Capítulos */
+
+form label, form input{
+    display: block;
+}
+
+/* Footer */
+
+footer{
+    width: 100%;
+    background: white;
+    margin-bottom: 0;
+}
+
+.logoFooter{
+    width: 20%;
+    height: 20%;
+    float: right;
+}
+
